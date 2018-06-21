@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Helpers\CSVHelper.config" />
+    <None Remove="AddedAndRemoved.csv" />
+    <None Remove="Output.csv" />
+    <None Remove="Added.csv" />
+    <None Remove="AddedAndRemovedContingencies.csv" />
+    <None Remove="Descriptions.csv" />
+    <None Remove="Modifications.csv" />
+    <None Remove="Removed.csv" />
+  </ItemGroup>
+</Project>
